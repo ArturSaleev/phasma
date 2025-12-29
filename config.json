@@ -1,0 +1,27 @@
+{
+  "servers": [
+    {
+      "name": "TestPortal",
+      "ssh": {
+        "user": "User1",
+        "host": "10.10.12.11:22",
+        "private_key": "",
+        "passphrase": "",
+        "password": "password"
+      },
+      "reconnect": true,
+      "forwards": [
+        {
+          "local": "127.0.0.1:9200",
+          "remote": "127.0.0.1:9200",
+          "description": "ElasticSearch"
+        },
+        {
+          "local": "127.0.0.1:13306",
+          "remote": "127.0.0.1:3306",
+          "description": "MySQL"
+        }
+      ]
+    }
+  ]
+}
