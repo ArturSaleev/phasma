@@ -120,6 +120,13 @@ SSH authentication with login and password
 - SSH credentials are read from the configuration file
 - No external dependencies required
 
+## Source Code
+
+The source code is currently maintained in a private repository.
+
+This public repository is used to distribute precompiled binaries
+and collect user feedback.
+
 ## License
 
 MIT License
